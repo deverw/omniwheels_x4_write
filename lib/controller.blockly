@@ -1,0 +1,71 @@
+<xml xmlns="https://developers.google.com/blockly/xml" version="18">
+  <block type="txt4_controller" id="_~$n8,ATe^s+O3hZPhx^" x="45" y="33">
+    <mutation>
+      <arg type="Input" name="Input-0" value="-"/>
+      <arg type="Output" name="Output-0" value="-"/>
+      <arg type="Motor" name="Motor-0" value="M1"/>
+      <arg type="Motor" name="Motor-1" value="M2"/>
+      <arg type="Motor" name="Motor-2" value="M3"/>
+      <arg type="Motor" name="Motor-3" value="M4"/>
+      <arg type="Servomotor" name="Servomotor-0" value="S1"/>
+      <arg type="Servomotor" name="Servomotor-1" value="-"/>
+      <arg type="Counter" name="Counter-0" value="C1"/>
+      <arg type="Counter" name="Counter-1" value="C2"/>
+      <arg type="Counter" name="Counter-2" value="C3"/>
+      <arg type="Counter" name="Counter-3" value="C4"/>
+      <arg type="I2C" name="I2C-0" value="-"/>
+      <arg type="USB" name="USB-0" value="-"/>
+    </mutation>
+    <field name="mode">0</field>
+    <field name="controller_name">TXT</field>
+    <field name="Input-0">-</field>
+    <field name="Output-0">-</field>
+    <field name="Motor-0">M1</field>
+    <field name="Motor-1">M2</field>
+    <field name="Motor-2">M3</field>
+    <field name="Motor-3">M4</field>
+    <field name="Servomotor-0">S1</field>
+    <field name="Servomotor-1">-</field>
+    <field name="Counter-0">C1</field>
+    <field name="Counter-1">C2</field>
+    <field name="Counter-2">C3</field>
+    <field name="Counter-3">C4</field>
+    <field name="I2C-0">-</field>
+    <field name="USB-0">-</field>
+    <value name="Motor-0">
+      <block type="encodermotor" id="yvLGWuRF|2]$0uyDRr6L"/>
+    </value>
+    <value name="Motor-1">
+      <block type="encodermotor" id="}]6ILV5yC,B%se`Fi,rs"/>
+    </value>
+    <value name="Motor-2">
+      <block type="encodermotor" id="3pzxG=81mD:f7.NZ3N@P"/>
+    </value>
+    <value name="Motor-3">
+      <block type="encodermotor" id="~MgZPhBKwo+,U5m/4o5a"/>
+    </value>
+    <value name="Servomotor-0">
+      <block type="servomotor" id="7Q4I#eh+AAAJnPSz-LC4"/>
+    </value>
+    <value name="Counter-0">
+      <block type="motor_step_counter" id="xnwH7[UPUF5S*}(SCgAD">
+        <field name="instance_name">M1</field>
+      </block>
+    </value>
+    <value name="Counter-1">
+      <block type="motor_step_counter" id=",QNlJN-dg;Dhl)W6aqW=">
+        <field name="instance_name">M2</field>
+      </block>
+    </value>
+    <value name="Counter-2">
+      <block type="motor_step_counter" id="2tAUG0E]A-LTK,U1DZKG">
+        <field name="instance_name">M3</field>
+      </block>
+    </value>
+    <value name="Counter-3">
+      <block type="motor_step_counter" id="rZJ#hf~(KFIJ#:evT[Vx">
+        <field name="instance_name">M4</field>
+      </block>
+    </value>
+  </block>
+</xml>
